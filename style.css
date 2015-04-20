@@ -1,0 +1,30 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  width: 200px;
+  float: left;
+  height: 100%;
+  background: #e2e2e2;
+}
+
+.view-container {
+  width: calc(100%-200px);
+  text-align: center;
+}
+
+.view-container h1{
+  margin: 0px auto;
+}
+
+.individual-item {  
+  width: 100%;
+  background: #ccc;
+  padding: 20px;
+  margin: 0px auto;
+  margin-top: 10px;
+}
